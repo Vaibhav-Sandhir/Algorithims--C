@@ -1,5 +1,5 @@
-//Best case Time Complexity = O(n)
-//Worst case TIme Complexity = O(n^2)
+//Best case Time Complexity = O(n) --> Array is already sorted 
+//Worst case TIme Complexity = O(n^2) --> Array is sorted in reverse 
 //Total = O(n^2)
 
 #include <stdio.h>
