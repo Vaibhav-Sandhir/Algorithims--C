@@ -10,14 +10,14 @@ int min(int m,int n){
 int consecutive_check(int m,int n){
     int t = min(m,n);
     while(t != 0){
-    if(m % t == 0){
-        if(n % t == 0)
-            return t;
+        if(m % t == 0){
+            if(n % t == 0)
+                return t;
+            else
+                t--;
+        }
         else
-            t--;
-    }
-    else
-        t--;    
+            t--;    
     }
 }
 
