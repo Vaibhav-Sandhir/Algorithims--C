@@ -29,7 +29,7 @@ int isCyclic(int n,int visited[n],int adj[n][n]) {
     return 0;
 }
 
-int main() {
+void main() {
     int n;
     int i,j,ans;
     printf("Enter the number of vertices: ");
@@ -52,6 +52,4 @@ int main() {
         printf("The graph is cyclic.\n");
     else
         printf("The graph is acyclic.\n");
-
-    return 0;
 }
