@@ -16,7 +16,7 @@ void main(){
     printf("\nEnter how many items: ");
     scanf("%d",&n);
     int max = pow(2,n);
-    int tot = 4 * max;
+    int tot = n * max;
     int values[n];
     int weights[n];
     int items[n];
