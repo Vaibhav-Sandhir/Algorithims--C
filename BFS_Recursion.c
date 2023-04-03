@@ -40,7 +40,6 @@ void main() {
 
     int queue[n];
     int front = 0, rear = 0;
-    queue[++rear] = 0;
     visited[0] = 1;
 
     printf("BFS traversal starting from vertex 0: ");
