@@ -1,4 +1,3 @@
-// Working for 4 currently
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -58,10 +57,6 @@ void main(){
     sums_weight[ind++] = sum2;
     sum1 = 0;
     sum2 = 0; 
-  }
-  for(i = 0; i < max - 1;i++){
-    printf("\n%d%d%d%d %d %d",tot_binary[x],tot_binary[x + 1],tot_binary[x + 2],tot_binary[x + 3],sums_value[i],sums_weight[i]);
-    x = x + 4;
   }
   int max_profit = sums_value[0];
   int ind_max_profit = 0;
